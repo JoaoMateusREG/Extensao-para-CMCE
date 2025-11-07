@@ -21,6 +21,14 @@ const regras = [
   },
   {
     seletor: "select, input, textarea",
+    valorEsperado: "ALFA - COLONOSCOPIA",
+    // Use \n para criar parágrafos/quebras de linha
+    mensagem:
+      "Faixa etária entre 14 e 69 anos.\n\nPrecisa-se de APAC.",
+    correspondenciaExata: false,
+  },
+  {
+    seletor: "select, input, textarea",
     valorEsperado: "GENETICA",
     // Use \n para criar parágrafos/quebras de linha
     mensagem:

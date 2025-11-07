@@ -32,7 +32,6 @@ Edite o arquivo `content.js` e adicione novas regras no array `regras`:
   seletor: 'input.meu-campo',           // Seletor CSS do elemento
   valorEsperado: 'TEXTO PARA DETECTAR', // Texto que ativa a notificação
   mensagem: 'Sua mensagem aqui',        // Mensagem a exibir
-  cor: '#FF5722'                        // Cor de fundo (opcional)
 }
 ```
 
@@ -47,7 +46,6 @@ Edite o arquivo `content.js` e adicione novas regras no array `regras`:
 ## Personalização
 
 - **Posição**: Edite `styles.css` (propriedades `top`, `right`, `bottom`, `left`)
-- **Cores**: Defina a cor em cada regra
 - **Ícone**: Substitua `icon.png` por sua própria imagem (128x128px)
 
 ## Observações
