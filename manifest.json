@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Monitor de Página",
+  "version": "1.0",
+  "description": "Monitora elementos da página e exibe mensagens personalizadas",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://regulador.saude.pe.gov.br/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
